@@ -1,0 +1,38 @@
+{
+  "name": "lambda-authorizer",
+  "version": "1.0.0",
+  "description": "Serverless application using custom lambda authorizer for API Gateway.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mannyGokhale/lambda-authorizer.git"
+  },
+  "keywords": [
+    "AWS",
+    "SERVERLESS",
+    "LAMBDA",
+    "AUTHORIZER",
+    "SAM"
+  ],
+  "author": "mandar.m.gokhale@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mannyGokhale/lambda-authorizer/issues"
+  },
+  "homepage": "https://github.com/mannyGokhale/lambda-authorizer#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-source-map-support": "^2.1.1",
+    "source-map-support": "^0.5.19",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
